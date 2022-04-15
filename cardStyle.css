@@ -1,4 +1,9 @@
+body {
+    width: 1600px;
+    margin: 0 auto;
+}
 #card {
+    display: inline-block;
     width: 357px;
     height: 618px;
     background-color: #fff;
@@ -103,12 +108,14 @@ img {
 }
 
 #btnsDiv {
-    display: flex;
+    position: relative;
+    display: inline-block;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#heart {
+#favIcon {
     position: absolute;
-    left: 289px;
+    left: 270px;
+    bottom: -15px;
 }
