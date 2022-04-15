@@ -1,0 +1,114 @@
+#card {
+    width: 357px;
+    height: 618px;
+    background-color: #fff;
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#cardImg {
+    width: 296px;
+    height: 214px;
+}
+
+img {
+    padding-top: 37px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+}
+
+#textElem {
+    padding-top: 40px;
+    padding-left: 37px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#sliderLine {
+    width: 82px;
+    height: 5px;
+    margin-top: 16px;
+    padding-left: 37px;
+}
+
+#divSquares {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#square1,
+#square2,
+#square3 {
+    width: 28px;
+    height: 28px;
+    margin: 12px;
+}
+
+#square1 {
+    margin-left: 37px;
+}
+
+#priceDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 37px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+}
+
+#oldPrice {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration-line: line-through;
+    color: #BDBDBD;
+}
+
+#price {
+    margin-left: 12px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000;
+}
+
+#line {
+    margin-bottom: 39px;
+}
+
+#btn {
+    padding: 14px 70px;
+    margin-left: 37px;
+    text-decoration-line: none;
+    color: #1D1818;
+    border: 1px solid #384685;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+#btnsDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#heart {
+    position: absolute;
+    left: 289px;
+}
